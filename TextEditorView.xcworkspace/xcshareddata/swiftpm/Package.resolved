@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Socket",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueSocket",
+        "state": {
+          "branch": null,
+          "revision": "c9894fd117457f1d006575fbfb2fdfd6f79eac03",
+          "version": "1.0.200"
+        }
+      },
+      {
+        "package": "CSSH",
+        "repositoryURL": "https://github.com/glushchenko/Libssh2Prebuild.git",
+        "state": {
+          "branch": null,
+          "revision": "a91bcf205a6cbc84144f840c44145656abbd266a",
+          "version": "1.10.0"
+        }
+      },
+      {
+        "package": "Shout",
+        "repositoryURL": "https://github.com/glushchenko/Shout",
+        "state": {
+          "branch": "master",
+          "revision": "aa2dc5dc124e8aa29002fcd4c334cdf54fa74df9",
+          "version": null
+        }
+      },
+      {
+        "package": "SoulverCore",
+        "repositoryURL": "https://github.com/soulverteam/SoulverCore",
+        "state": {
+          "branch": null,
+          "revision": "027845f94046c458a7726ffb09399d134ef8f554",
+          "version": "2.2.0"
+        }
+      },
+      {
+        "package": "swift-cgit2",
+        "repositoryURL": "https://github.com/glushchenko/swift-cgit2",
+        "state": {
+          "branch": null,
+          "revision": "ab1a18d82002b185c1c73b0daaa4174bb6b4f29c",
+          "version": "1.2.2"
+        }
+      },
+      {
+        "package": "swift-git",
+        "repositoryURL": "https://github.com/glushchenko/swift-git",
+        "state": {
+          "branch": "main",
+          "revision": "7b2f3af96c6947308b4f0b4ae02302fd47a5eff2",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-system",
+        "repositoryURL": "https://github.com/apple/swift-system",
+        "state": {
+          "branch": null,
+          "revision": "39774ef16a6d91dee6f666b940e00ea202710cf7",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

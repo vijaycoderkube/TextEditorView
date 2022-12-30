@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47E0229E19FAA72B31C87E38 /* Pods_TextEditorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA38F45F533DD335317F78 /* Pods_TextEditorView.framework */; };
 		88520D80295EAE1700041014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88520D7F295EAE1700041014 /* AppDelegate.swift */; };
 		88520D82295EAE1700041014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88520D81295EAE1700041014 /* SceneDelegate.swift */; };
 		88520D84295EAE1700041014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88520D83295EAE1700041014 /* ViewController.swift */; };
 		88520D87295EAE1700041014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88520D85295EAE1700041014 /* Main.storyboard */; };
 		88520D89295EAE1A00041014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88520D88295EAE1A00041014 /* Assets.xcassets */; };
 		88520D8C295EAE1A00041014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88520D8A295EAE1A00041014 /* LaunchScreen.storyboard */; };
+		88520E37295EE07100041014 /* SoulverCore in Frameworks */ = {isa = PBXBuildFile; productRef = 88520E36295EE07100041014 /* SoulverCore */; };
+		88520E3A295EE09000041014 /* Shout in Frameworks */ = {isa = PBXBuildFile; productRef = 88520E39295EE09000041014 /* Shout */; };
+		88520E3D295EE0A600041014 /* Git in Frameworks */ = {isa = PBXBuildFile; productRef = 88520E3C295EE0A600041014 /* Git */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CDD2ACA0983139FD7A4B06A /* Pods-TextEditorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextEditorView.debug.xcconfig"; path = "Target Support Files/Pods-TextEditorView/Pods-TextEditorView.debug.xcconfig"; sourceTree = "<group>"; };
+		76FA38F45F533DD335317F78 /* Pods_TextEditorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextEditorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88520D7C295EAE1700041014 /* TextEditorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEditorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88520D7F295EAE1700041014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88520D81295EAE1700041014 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,7 @@
 		88520D88295EAE1A00041014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88520D8B295EAE1A00041014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88520D8D295EAE1A00041014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91D2326805745E1640519B7 /* Pods-TextEditorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextEditorView.release.xcconfig"; path = "Target Support Files/Pods-TextEditorView/Pods-TextEditorView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88520E3A295EE09000041014 /* Shout in Frameworks */,
+				88520E37295EE07100041014 /* SoulverCore in Frameworks */,
+				47E0229E19FAA72B31C87E38 /* Pods_TextEditorView.framework in Frameworks */,
+				88520E3D295EE0A600041014 /* Git in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F5C6B2914A84E102072A922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FA38F45F533DD335317F78 /* Pods_TextEditorView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88520D73295EAE1700041014 = {
 			isa = PBXGroup;
 			children = (
 				88520D7E295EAE1700041014 /* TextEditorView */,
 				88520D7D295EAE1700041014 /* Products */,
+				8C870D5EF658346DAC542443 /* Pods */,
+				1F5C6B2914A84E102072A922 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +88,15 @@
 			path = TextEditorView;
 			sourceTree = "<group>";
 		};
+		8C870D5EF658346DAC542443 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD2ACA0983139FD7A4B06A /* Pods-TextEditorView.debug.xcconfig */,
+				D91D2326805745E1640519B7 /* Pods-TextEditorView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +104,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88520D90295EAE1A00041014 /* Build configuration list for PBXNativeTarget "TextEditorView" */;
 			buildPhases = (
+				810ADA1F3193BB1339F71BFC /* [CP] Check Pods Manifest.lock */,
 				88520D78295EAE1700041014 /* Sources */,
 				88520D79295EAE1700041014 /* Frameworks */,
 				88520D7A295EAE1700041014 /* Resources */,
+				319476893A5789AAFE787EE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TextEditorView;
+			packageProductDependencies = (
+				88520E36295EE07100041014 /* SoulverCore */,
+				88520E39295EE09000041014 /* Shout */,
+				88520E3C295EE0A600041014 /* Git */,
+			);
 			productName = TextEditorView;
 			productReference = 88520D7C295EAE1700041014 /* TextEditorView.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,11 @@
 				Base,
 			);
 			mainGroup = 88520D73295EAE1700041014;
+			packageReferences = (
+				88520E35295EE07100041014 /* XCRemoteSwiftPackageReference "SoulverCore" */,
+				88520E38295EE09000041014 /* XCRemoteSwiftPackageReference "Shout" */,
+				88520E3B295EE0A600041014 /* XCRemoteSwiftPackageReference "swift-git" */,
+			);
 			productRefGroup = 88520D7D295EAE1700041014 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +174,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		319476893A5789AAFE787EE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextEditorView/Pods-TextEditorView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextEditorView/Pods-TextEditorView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextEditorView/Pods-TextEditorView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810ADA1F3193BB1339F71BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextEditorView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88520D78295EAE1700041014 /* Sources */ = {
@@ -284,6 +368,7 @@
 		};
 		88520D91295EAE1A00041014 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDD2ACA0983139FD7A4B06A /* Pods-TextEditorView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +397,7 @@
 		};
 		88520D92295EAE1A00041014 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91D2326805745E1640519B7 /* Pods-TextEditorView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +446,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88520E35295EE07100041014 /* XCRemoteSwiftPackageReference "SoulverCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soulverteam/SoulverCore";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		88520E38295EE09000041014 /* XCRemoteSwiftPackageReference "Shout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/glushchenko/Shout";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		88520E3B295EE0A600041014 /* XCRemoteSwiftPackageReference "swift-git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/glushchenko/swift-git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88520E36295EE07100041014 /* SoulverCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88520E35295EE07100041014 /* XCRemoteSwiftPackageReference "SoulverCore" */;
+			productName = SoulverCore;
+		};
+		88520E39295EE09000041014 /* Shout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88520E38295EE09000041014 /* XCRemoteSwiftPackageReference "Shout" */;
+			productName = Shout;
+		};
+		88520E3C295EE0A600041014 /* Git */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88520E3B295EE0A600041014 /* XCRemoteSwiftPackageReference "swift-git" */;
+			productName = Git;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88520D74295EAE1700041014 /* Project object */;
 }
